@@ -1,0 +1,72 @@
+      /* = Style Customizations & Overrides ----------------------------------------------- */
+	#top-menu {margin-top: 41px; margin-left: 215px; margin-bottom: 40px;}
+	#home-section-news { background-color: #868a6c; }
+	.blog-post a.learn-more { background: linear-gradient(to bottom, rgb(192, 197, 165) 0%,rgba(193, 197, 173, 1) 100%);
+	a.learn-more:hover, .blog-post a.learn-more:hover { 
+		background: linear-gradient(to bottom, rgba(101, 104, 87, 1) 0%,rgba(101, 104, 87, 1) 100%);
+		border: 1px solid #525a53; }
+	body { 
+		color:pink;}
+	h1, h2 {
+		font-weight: bold;
+	}
+      /* = CUSTOM STYLES   ----------------------------------------------- */
+
+
+
+      /* = SHORTCODE STYLES   ----------------------------------------------- */
+      .margin10 { margin-bottom: 10px; }
+      .margin20 { margin-bottom: 20px; }
+      .margin40 { margin-bottom: 40px; }
+      .margin60 { margin-bottom: 60px; }
+      .divider {
+ 	 width: 90%;
+ 	 margin: 10px auto;
+ 	 height: 1px;
+ 	 background-color: #999;}
+
+      /* = WORDPRESS STYLE OVERRIDES   ----------------------------------------------- */
+      .aligncenter,
+      img.aligncenter {
+      	clear: both;
+      	display: block;
+      	margin-left: auto;
+      	margin-right: auto;
+      	text-align: center;
+      }
+
+      /* = CLEARFIX STYLEs  ----------------------------------------------- */
+      /**
+       * For modern browsers
+       * 1. The space content is one way to avoid an Opera bug when the
+       *    contenteditable attribute is included anywhere else in the document.
+       *    Otherwise it causes space to appear at the top and bottom of elements
+       *    that are clearfixed.
+       * 2. The use of `table` rather than `block` is only necessary if using
+       *    `:before` to contain the top-margins of child elements.
+       */
+      .clearfix:before,
+      .clearfix:after,
+      .cf:before,
+      .cf:after {
+          content: " "; /* 1 */
+          display: table; /* 2 */
+      }
+
+      .clearfix:after,
+      .cf:after {
+          clear: both;
+      }
+
+      /**
+       * For IE 6/7 only
+       * Include this rule to trigger hasLayout and contain floats.
+       */
+      .clearfix,
+      .cf {
+          *zoom: 1;
+      }
+
+      
+
+	#main-header #page-name { clear: both; }

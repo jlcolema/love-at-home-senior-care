@@ -1,0 +1,4 @@
+Backup successfully completed
+Backup successfully sent to destination
+Schedule created/edited
+New destination created/edited
